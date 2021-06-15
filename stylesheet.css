@@ -82,3 +82,257 @@
     src:url(//fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2)format('woff2');
     unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
+*/-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------/*
+.container,.scrolled .bottom-header .head-wrap,.full-style .wrap,.full-style .bottom-header{
+    max-width:1150px
+}
+ .main-wrapper{
+    padding-right:312px;
+    padding-left:180px
+}
+ .rtl .main-wrapper{
+    padding-left:312px;
+    padding-right:180px
+}
+ .sidebar-right,.sidebar-right > .wrap-inner{
+    width:312px
+}
+ .sidebar-left,.sidebar-left > .wrap-inner{
+    width:180px;
+    overflow:hidden
+}
+ .left-post .main-wrapper{
+    padding-right:312px;
+    padding-left:180px
+}
+ .right-post .main-wrapper{
+    padding-left:312px;
+    padding-right:180px
+}
+ .left-side .main-wrapper{
+    padding-right:0;
+    padding-left:312px
+}
+ .right-side .main-wrapper{
+    padding-left:0;
+    padding-right:312px
+}
+ .sidebar-style1 .left-side .main-wrapper{
+    padding-right:0;
+    padding-left:312px
+}
+ .sidebar-style1 .right-side .main-wrapper{
+    padding-right:312px;
+    padding-left:0
+}
+ .sidebar-style1 .sidebar-left{
+    right:312px
+}
+ .sidebar-style1 .left-post .sidebar-left,.sidebar-style1 .right-side .sidebar-left{
+    right:312px
+}
+ .sidebar-style1 .right-post .sidebar-left,.sidebar-style1 .left-side .sidebar-left{
+    left:312px
+}
+ #layout{
+    width:960px
+}
+ #layout .section h4,#layout .error-custom{
+    display:none
+}
+ body#layout div.section{
+    border:0
+}
+ #layout .admin,#layout .blogpost-setting,#layout .gads-mainfile{
+    display:block
+}
+ #layout .option,#layout .top-header{
+    overflow:hidden!important
+}
+ #layout .option > .widget,#layout .links-submenu .section,#layout .top-header .section,#layout .footer-area .footer,#layout .main-bottom-column > .sidebar,#layout .middle-header .table-cell{
+    float:left;
+    margin:8px 0;
+    margin-right:2%
+}
+ #layout .option > .widget{
+    width:23.5%
+}
+ #layout .footer-area .footer{
+    width:23.5%;
+    padding:0
+}
+ #layout .container .section,#layout #gadsmain-file1{
+    background-color:transparent;
+    padding:0
+}
+ #layout .option #LinkList851,#layout .links-submenu #links-sub4,#layout .top-header .go-right,#layout .main-bottom-column > .go-right,#layout .footer-area #footer4,#layout .middle-header .topads{
+    margin-right:0
+}
+ #layout .middle-header .table-cell{
+    margin-top:0;
+    margin-bottom:0
+}
+ #layout .middle-header .header .section{
+    margin:0
+}
+ #layout .top-header,#layout .bottom-header{
+    height:auto
+}
+ #layout .top-header .section,#layout .main-bottom-column > .sidebar,#layout .middle-header .table-cell{
+    width:49%
+}
+ body#layout .editlink{
+    color:#FFF!important;
+    background-color:#09AA56;
+    padding:0 5px;
+    display:block;
+    right:0;
+    bottom:0
+}
+ body#layout .editlink:hover{
+    background-color:#AA095D
+}
+ #layout .sidebar-right,#layout .sidebar-left{
+    position:absolute;
+    top:0
+}
+ #layout .sidebar-left{
+    left:0
+}
+ #layout .sidebar-right{
+    right:0
+}
+ #layout #sidebar-wrapper{
+    position:static
+}
+ #layout #option{
+    background-color:#60A926;
+    padding:0 10px;
+    margin:0 10px 15px
+}
+ #layout #option:before,#layout .header-wrap:before,#layout .links-submenu:before,#layout .container .main-area-sec:before,#layout .container .topfeatured-area:before,#layout .sidebar-right .innerwrap:before,#layout .sidebartabs:before,#layout .footer-area:before,#layout .author-profile-area:before{
+    content:"Theme Options";
+    display:block;
+    color:#FFF;
+    font-size:25px;
+    padding-top:10px
+}
+ #layout .header-wrap{
+    background-color:#2E64A5;
+    margin:0 10px 15px;
+    padding-bottom:10px
+}
+ #layout .header-wrap:before{
+    content:"Header Area"
+}
+ #layout .links-submenu{
+    background-color:#9d3c3c;
+    padding:0 8px;
+    width:auto;
+    margin:0 10px
+}
+ #layout .links-submenu:before{
+    content:"(-links) Links Content Area"
+}
+ #layout .container .main-area-sec,#layout .container .topfeatured-area{
+    background-color:#2A8D9B;
+    padding:10px
+}
+ #layout .container .main-area-sec:before,#layout .container .topfeatured-area:before,#layout .sidebartabs:before,#layout .sidebar-right .innerwrap:before,#layout .author-profile-area:before{
+    content:"Magazine Area";
+    padding-top:0;
+    margin-bottom:10px
+}
+ #layout .sidebar-area > div{
+    background-color:#AFAA36;
+    height:auto
+}
+ #layout .sidebar-right .innerwrap,#layout .sidebartabs{
+    background-color:#236350;
+    padding:10px 5px 5px;
+    margin:0 10px 10px
+}
+ #layout .sidebar-right .wrap-inner{
+    padding:0
+}
+ #layout .sidebar-right .innerwrap:before{
+    content:"Sidebar Ads Area"
+}
+ #layout .sidebartabs{
+    background-color:#860884
+}
+ #layout .footer-area,#layout .author-profile-area{
+    background-color:#0F38A3
+}
+ #layout .footer-area,#layout .author-profile-area,#layout .container .topfeatured-area{
+    margin:10px
+}
+ #layout .sidebartabs:before{
+    content:"Sidebar Tabs Area"
+}
+ #layout .footer-area:before{
+    content:"Footer Area"
+}
+ #layout .author-profile-area{
+    background-color:#A30F33;
+    padding:5px
+}
+ #layout .author-profile-area:before{
+    content:"Author Social Widget"
+}
+ #layout .container .topfeatured-area .wrap{
+    width:auto
+}
+ #layout .blogpost-setting > .HTML{
+    width:32.3333%;
+    float:left;
+    margin:8px 0.5%
+}
+ #layout .blogpost-setting{
+    overflow:hidden!important
+}
+ #layout .bottom-setting-sec > .HTML{
+    width:49%;
+    margin-bottom:5px
+}
+ #layout div.layout-widget-description,#layout .posts-title{
+    display:none!important
+}
+ #layout .container .blogpost-setting{
+    background-color:#909090;
+    padding:5px
+}
+ #layout .header-wrap > div{
+    margin:0 10px
+}
+ #layout .header-wrap .wrap,#layout #main-navi,#layout .topfeatured-area .wrap,#layout .container .main-area-sec > .section,#layout .main-wrapper > div > .section{
+    margin:0
+}
+ #layout .main-wrapper{
+    padding-top:0
+}
+ #layout .add_widget{
+    background-color:rgba(255,255,255,0.3)
+}
+ #layout .main-wrapper > div > .section{
+    padding:5px 8px
+}
+ #layout #main{
+    background-color:#4381F3;
+    padding-bottom:10px
+}
+ #layout .sidebar-area .wrap-inner > div{
+    padding:0 5px 3px
+}
+ body#layout .add_widget{
+    padding:16px 5px
+}
+ #layout .ads-widget-sec .widget-content{
+    padding:16px 10px
+}
+ #layout .gads-mainfile{
+    margin:0 10px 20px
+}
+
+*/-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------/*
+
